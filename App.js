@@ -21,6 +21,10 @@ export default function App() {
       <PersistGate loading={null} persistor={Persistor}>
         <NavigationContainer>
           <RootStack />
+          {/*<Tab.Navigator>
+            <Tab.Screen name="Search" component={Search} />
+            <Tab.Screen name="Favoris" component={Favoris} />
+          </Tab.Navigator>*/}
             
         </NavigationContainer>
       </PersistGate>

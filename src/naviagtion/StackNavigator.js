@@ -11,7 +11,7 @@ function RootStack() {
   return (
     <StackNavigator.Navigator
       initialRouteName="Movies"
-    >
+      >
       <StackNavigator.Screen
         name="Movies"
         component={SearchMovie}
